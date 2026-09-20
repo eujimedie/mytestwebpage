@@ -9,15 +9,20 @@
 </head>     
  <body>
   <header>
-   <div>
+   <section class="upperpart">
+    <img class="logopic" src="https://cdn.pixabay.com/photo/2014/04/10/18/14/panda-321149_1280.png" 
+         width="398" height="372" alt="Logo">
     <h1>My test webpage</h1>
-   </div>
-   <search>
-    <form action="/search" method="GET">
-     <input type="search" plaseholder="type here..."/>
-     <button type="submit">Search</button> 
-    </form>
-   </search> 
+   </section>
+   <section class="lowerpart">
+    <div class="hamburgermenu">
+     <button class="hamburger" name="hamburger-btn" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+     </button>
+    </div>
+
     <nav>
      <ul>
       <li><a href="#">Home</a></li>
@@ -26,14 +31,23 @@
       <li><a href="#">Contact us</a></li>
      </ul>
     </nav>
+   </section>
 
+    <h2>My test webpage</h2>
+   <search>
+    <form action="/search" method="GET">
+     <input type="search" plaseholder="type here..."/>
+     <button type="submit">Search</button> 
+    </form>
+   </search> 
+    
   </header>
   <main>
    <article>
     <h2>Title of an article</h2>
      <figure>    
       <img class="panda" src="https://cdn.pixabay.com/photo/2016/03/04/22/54/animal-1236875_1280.jpg" width="355" height="236" loading="lazy"
-         alt="Panda on a tree, memorising tags">
+           alt="Panda on a tree, memorising tags">
         <figcaption>
             A panda on a tree, memorising tags
         </figcaption>
@@ -50,7 +64,7 @@
     <h2>Title of a second article</h2>
      <figure>    
       <img class="panda"src="https://cdn.pixabay.com/photo/2016/03/04/22/54/animal-1236875_1280.jpg" width="355" height="236" loading="lazy"
-         alt="Panda on a tree, memorising tags">
+           alt="Panda on a tree, memorising tags">
         <figcaption>A panda on a tree, memorising tags</figcaption>
      </figure>
       <p>Here comes some text about somthing interresting.
@@ -65,7 +79,7 @@
      <div class="container">
       <figure>    
        <img class="panda"src="https://cdn.pixabay.com/photo/2016/03/04/22/54/animal-1236875_1280.jpg" width="355" height="236" loading="lazy"
-         alt="Panda on a tree, memorising tags">
+            alt="Panda on a tree, memorising tags">
         <figcaption>A panda on a tree, memorising tags</figcaption>
       </figure>
       <p>Here comes some text about somthing interresting.
