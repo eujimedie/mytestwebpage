@@ -5,7 +5,6 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="style.css" type="text/css">
  <title>My test webpage</title>
-
 </head>     
  <body>
   <header>
@@ -22,7 +21,6 @@
       <span></span>
      </button>
     </div>
-
     <nav>
      <ul>
       <li><a href="#">Home</a></li>
@@ -32,7 +30,6 @@
      </ul>
     </nav>
    </section>
-
     <h2>My test webpage</h2>
    <search>
     <form action="/search" method="GET">
@@ -40,11 +37,10 @@
      <button type="submit">Search</button> 
     </form>
    </search> 
-    
   </header>
   <main>
    <article>
-    <h2>Title of an article</h2>
+    <h2>Title of a first article</h2>
      <figure>    
       <img class="panda" src="https://cdn.pixabay.com/photo/2016/03/04/22/54/animal-1236875_1280.jpg" width="355" height="236" loading="lazy"
            alt="Panda on a tree, memorising tags">
@@ -71,7 +67,6 @@
          Several lines, probably 5 or 6</p>
       <p>some more text, very interesting text 
          about pandas and their life in the wild</p>
-
        <a href="https://pixabay.com/sv/" target="_blank" rel="noopener noreferrer">More...</a>
    </article>
    <article>
@@ -87,14 +82,71 @@
      </div>    
      <a href="https://pixabay.com/sv/" target="_blank" rel="noopener noreferrer">More...</a>
    </article>
-
-
-
+   <arcicle class="submitform">
+    <h2>Submit a news tip</h2>
+       <form>
+        <label for="name">Your name:</label>
+        <input type="text" name="fullName" required>
+       </form>
+       <form>
+        <label for="e-mail">Your e-mail:</label>
+        <input type="text" name="e-mail" required>
+       </form>
+       <form>
+        <label for="tel">Your tel. number:</label>
+        <input type="tel" name="tel" required>
+       </form>
+       <form>
+        <label for="options">Choose an option:</label>
+        <select name="options">
+         <option value="select an option" disabled selected>-- Select an option --</option>  
+         <option value="option1">Option 1</option>
+         <option value="option2">Option 2</option>
+         <option value="option3">Option 3</option>
+        </select>
+       </form>
+       <form>
+        <label for="your message">Your message/tip:</label>
+        <textarea name="message" rows="5" required>
+        </textarea>
+       </form>
+       <form>
+        <label for="check box">Contact me</label>
+        <input type="checkbox" name="checkbox" required>
+       </form>
+       <form action="/submit-data" method="POST">
+        <button type="submit">Submit</button> 
+       </form>
+   </arcicle>
+    <details>
+     <summary>"GDPR & Privacy Policy Information"</summary>
+      <p>++++++</p>
+      <p>......</p>
+      <p>,,,,,,</p>
+    </details>
   </main>
   <footer>
-
-
-
+   <adress>
+    <p>Company Ltd</p>
+    <p>Worldstreet 55</p>
+    <p>Tel: 012-456 789</p>
+    <p><a href="e-mail">info@company.com</a></p>
+     <nav>
+      <ul>
+       <li><a href="#">Sitemap</a></li>
+       <li><a href="#">About</a></li>
+      </ul>
+     </nav>
+    <div class="footer-social" aria-label="Social media links">
+     <h3>Follow Us</h3>
+      <p><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+            aria-label="Follow us on Facebook">Facebook</a></p>
+      <p><a href="https://x.com" target="_blank" rel="noopener noreferrer" 
+            aria-label="Follow us on X">X</a></p>
+      <p><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" 
+            aria-label="Follow us on Instagram">Istagram</a></p>
+    </div>
+   </adress>
   </footer>
   <script src="script.js"></script>
  </body>
