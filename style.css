@@ -6,7 +6,10 @@
     display: flex;
     justify-content: flex-start ;
 }
+.article3container {
+    display: flex;
 
+}
 body {
     background-color:white;
 }
