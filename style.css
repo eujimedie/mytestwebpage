@@ -35,6 +35,7 @@ body {
 }
 
 h1,h2 {
+    padding: 8px;
     font-family:'Lucida Sans', Geneva, Verdana, sans-serif ;
     font-size: 2,4rem;
 }
@@ -53,7 +54,9 @@ h1,h2 {
     display: flex;
     flex-direction: column;
 }
-
+figure,img,figcaption {
+    padding: 5px;
+}
 .article3container {
     display: flex;
     flex-direction: column;
