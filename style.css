@@ -29,7 +29,7 @@ body {
     justify-content:space-evenly ;
 }
 
-}
+
 a:hover {
     color:coral;
 }
@@ -56,4 +56,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.adress {
+    display: flex;
 }
