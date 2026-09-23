@@ -9,7 +9,13 @@
     gap: 30px;
     align-items: center;
 }
+.lowerpart {
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+    align-items: center;
 
+}
 body {
     background-color:white;
 }
