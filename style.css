@@ -38,10 +38,10 @@ h1,h2 {
 .hamburgermenu {
     display: flex;
     flex-direction: row;
-    
+    gap: 20px;
 }
 .bar {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 body {
