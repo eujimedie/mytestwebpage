@@ -21,6 +21,10 @@ h1 {
 a:hover {
     color:coral;
 }
+h1, h2, h3, h4:hover{
+    color:coral;
+} 
+
 .hamburgermenu {
     background-color:antiquewhite; 
     display: flex;
