@@ -60,3 +60,9 @@ a:hover {
     justify-content: space-around;
     
 }
+.footer-social {
+    padding: 20px;
+}
+.footer-sitemap {
+    padding: 10px;  
+}
