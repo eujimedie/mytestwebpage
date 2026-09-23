@@ -68,8 +68,7 @@ figure,img,figcaption,p,q,a {
 }
 .article {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    
 }
 
 a:hover {
