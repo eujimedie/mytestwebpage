@@ -58,6 +58,7 @@ a:hover {
     flex-direction: column;
     gap: 10px;
 }
+
 .adress {
     display: flex;
     flex-direction: row;
