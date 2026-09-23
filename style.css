@@ -38,7 +38,7 @@ h1,h2 {
 .hamburgermenu {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    
 }
 .bar {
     display:flex;
