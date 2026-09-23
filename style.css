@@ -35,3 +35,8 @@ a:hover {
 .footer-sitemap {
     padding: 10px;  
 }
+.submitform {
+    padding: 15px;
+    display: grid;
+    gap: 10px;
+}
