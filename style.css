@@ -68,7 +68,7 @@ figure,img,figcaption,p,q,a {
 }
 .article {
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
 a:hover {
