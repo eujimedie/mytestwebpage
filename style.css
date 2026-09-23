@@ -8,6 +8,7 @@
 }
 .article3container {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 body {
@@ -20,12 +21,28 @@ h1 {
 a:hover {
     color:coral;
 }
+.main-titel:hover {
+    color:coral;
+} 
+
 .hamburgermenu {
     background-color:antiquewhite; 
+}
+.hamburger {
+    color:darkgreen;
+}
+.bar {
+    color:darkgreen;
+}
+.footer-social {
+    padding: 20px;
+}
+.footer-sitemap {
+    padding: 10px;  
+}
+.submitform {
+    padding: 15px;
     display: flex;
-    font-family: sans-serif;
-    justify-content: space-between;
-    
-    padding: 30px 30px;
-    color:forestgreen;
+    flex-direction: column;
+    gap: 10px;
 }
