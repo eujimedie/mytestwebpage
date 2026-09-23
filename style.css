@@ -59,4 +59,5 @@ a:hover {
 }
 .adress {
     display: flex;
+    flex-direction: row;
 }
