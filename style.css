@@ -54,7 +54,7 @@ h1,h2 {
     display: flex;
     flex-direction: column;
 }
-figure,img,figcaption,p,q {
+figure,img,figcaption,p,q,a {
     padding: 5px;
 }
 .article3container {
@@ -68,7 +68,7 @@ figure,img,figcaption,p,q {
 }
 .article {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 a:hover {
