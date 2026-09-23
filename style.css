@@ -28,7 +28,10 @@ a:hover {
 .hamburgermenu {
     background-color:antiquewhite; 
 }
-.hamburger .bar {
+.hamburger {
+    color:darkgreen;
+}
+.bar {
     color:darkgreen;
 }
 .footer-social {
