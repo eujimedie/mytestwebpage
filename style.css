@@ -97,6 +97,10 @@ a:hover {
     justify-content: space-around;
     
 }
+footer{
+    padding: 5px;
+    border-top: 2px solid black;
+}
 .footer-social {
     padding: 5px;
 }
