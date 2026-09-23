@@ -9,6 +9,11 @@
     gap: 30px;
     align-items: center;
 }
+.logopic {
+    padding: 10px;
+}
+
+
 .lowerpart {
     display: flex;
     justify-content: space-around;
