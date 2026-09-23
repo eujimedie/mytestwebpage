@@ -27,12 +27,7 @@ a:hover {
 
 .hamburgermenu {
     background-color:antiquewhite; 
-    display: flex;
-    font-family: sans-serif;
-    justify-content: space-between;
     
-    padding: 30px 30px;
-    color:forestgreen;
 }
 .footer-social {
     padding: 20px;
