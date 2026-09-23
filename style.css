@@ -12,7 +12,9 @@
 .logopic {
     padding: 10px;
 }
-
+.menu {
+    padding: 10px;
+}
 
 .lowerpart {
     display: flex;
